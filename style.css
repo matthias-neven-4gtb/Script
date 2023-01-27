@@ -2,10 +2,18 @@ body {
     background-color: rgb(211, 185, 236);
 }
 
-#flexbox {
+#about {
     display: flex;
-    padding: 4% 0;
+    padding: 5%;
 }
+body {
+    padding: 10%;
+}
+    footer{
+        display: flex;
+        padding: 5%;
+    }
+
 
 .left {
     /* width: 70%; */
@@ -13,6 +21,10 @@ body {
 }
 
 header, main, footer {
-    background-color: bisque;
-    border: 2px solid rgb(81, 110, 2);
+    background-color: rgb(158, 134, 79);
+    border: 2px dashed rgb(58, 42, 0);
 }
+a:hover {
+    color: brown;
+}
+

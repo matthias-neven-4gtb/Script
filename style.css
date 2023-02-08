@@ -5,31 +5,41 @@ body {
 body {
     font-family: 'Monospace', sans-serif;
 }
+
 body {
     color: rgb(0, 57, 44);
 }
+
 #about {
     display: flex;
-    padding:; width: 1000px; height: 228px;
 }
+
 body {
     padding: 55px;
 }
-    footer{
-        display: flex;
-        padding: 5%;
-    }
+
+footer {
+    display: flex;
+    padding: 5%;
+}
 
 
 .left {
     /* width: 70%; */
-    flex: 7;
+    flex: 4;
 }
 
-header, main, footer {
+.right {
+    flex: 3;
+}
+
+header,
+main,
+footer {
     background-color: rgb(158, 134, 79);
     border: 2px dashed rgb(58, 42, 0);
 }
+
 a:hover {
     color: brown;
 }
@@ -38,14 +48,14 @@ a {
     margin: 2px 5px 7px 10px;
 }
 
-h1{
+h1 {
     padding: 2%;
 }
 
-h2{
+h2 {
     padding: 2%;
 }
 
-p{
+p {
     padding: 2%;
 }

@@ -2,12 +2,18 @@ body {
     background-color: rgb(211, 185, 236);
 }
 
-#about {
-    display: flex;
-    padding: 5%;
+body {
+    font-family: 'Monospace', sans-serif;
 }
 body {
-    padding: 10%;
+    color: rgb(0, 57, 44);
+}
+#about {
+    display: flex;
+    padding:; width: 1000px; height: 228px;
+}
+body {
+    padding: 55px;
 }
     footer{
         display: flex;
@@ -28,3 +34,18 @@ a:hover {
     color: brown;
 }
 
+a {
+    margin: 2px 5px 7px 10px;
+}
+
+h1{
+    padding: 2%;
+}
+
+h2{
+    padding: 2%;
+}
+
+p{
+    padding: 2%;
+}

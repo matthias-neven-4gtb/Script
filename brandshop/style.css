@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 120;
+    padding: 20;
 }
 
 body{
@@ -10,6 +10,7 @@ body{
 .flex-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header{
@@ -19,3 +20,10 @@ header{
 header nav li {
     display: inline;
 }
+
+header input {
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+}
+

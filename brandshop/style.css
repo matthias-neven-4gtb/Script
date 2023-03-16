@@ -17,6 +17,9 @@ header{
     background-color: rgb(193, 146, 79);
 }
 
+img {
+    width: 10%;
+}
 header nav li {
     display: inline;
 }
@@ -27,3 +30,8 @@ header input {
     border: none;
 }
 
+* {
+    margin: 20;
+    box-sizing: border-box;
+    padding: 20;
+}

@@ -3,23 +3,29 @@
     box-sizing: border-box;
     padding: 0;
 }
-body{
+
+body {
     background-color: rgb(113, 75, 10);
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header{
+header {
     background-color: rgb(193, 146, 79);
 }
 
-img {
-    width: 10%;
+header img {
+    width: 8rem;
 }
+
+img {
+    width: 100%;
+}
+
 header nav li {
     display: inline;
 }
@@ -29,4 +35,3 @@ header input {
     padding: 5px 10px;
     border: none;
 }
-

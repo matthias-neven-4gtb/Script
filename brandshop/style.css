@@ -44,3 +44,23 @@ videoframe {
 video {
     width: 100%;
 }
+
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 50vh;
+}
+
+video {
+    width: 100%;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}

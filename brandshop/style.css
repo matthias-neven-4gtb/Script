@@ -64,3 +64,21 @@ figcaption {
     bottom: 12%;
     left: 15%;
 }
+
+footer {
+    padding: 3rem;
+background-color: rgb(162, 73, 4);
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer li :first-child a {
+    font-weight: 900;
+    font-size: 1.2rem;
+}

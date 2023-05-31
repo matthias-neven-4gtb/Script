@@ -67,7 +67,7 @@ figcaption {
 
 footer {
     padding: 3rem;
-background-color: rgb(162, 73, 4);
+background-color: rgb(122, 60, 12);
 }
 
 footer li {
@@ -81,4 +81,36 @@ footer a {
 footer li :first-child a {
     font-weight: 900;
     font-size: 1.2rem;
+}
+
+footer i {
+    margin-left: 1ch;
+    font-size: 1.6rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    padding: 5vw 10vw;
+    background-color: #613e0a;
+    color: #2194a6;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a {
+    color: #190fa1;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
